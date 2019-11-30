@@ -1,0 +1,9 @@
+{{> header}}
+{{> notifications}}
+	{{#if isAuth}}
+		{{> home-auth}}
+	{{else}}
+		{{> home-notAuth}}
+	{{/if}}
+
+{{> footer}}

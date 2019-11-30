@@ -1,0 +1,8 @@
+<h1 class="text-center">Our Recipes</h1>
+<div id="sharedRecipes">
+{{#each recipe}}
+    {{> recipe}}
+{{else}}
+    {{> noRecipes}}
+{{/each}}
+</div>
